@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio Neto | Suporte de TI</title>
+  </head>
+ <body>
+<main>
+
+  <!--botões das abas-->
+  <nav class="abas">
+      <button type="button" class="aba ativa" data-alvo="area-cartao">Cartão</button>
+      <button type="button" class="aba" data-alvo="sobre">Sobre mim</button>
+    </nav>
+
+ <!-- NOVO (passo 1): div que envolve o cartão e o botão -->
+    <div id="area-cartao">
+
+      <div class="cena">
+        <div class="cartao" id="cartao">
+
+          <section class="face frente">
+            <div class="topo">
+              <h1 class="nome">Júlio Neto</h1>
+              <p class="cargo">Suporte de TI</p>
+            </div>
+            <p class="status"><span class="ponto"></span>Disponível para estágio</p>
+          </section>
+
+<section class="face verso">
+<ul class="contatos">
+<li><a href="https://wa.me/5585985200191" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+<li><a href="mailto:juliodasilva0056@gmail.com">E-mail</a></li>
+<li><a href="https://www.linkedin.com/in/j%C3%BAlio-neto-04b544437/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+<li><a href="https://github.com/Jnpy3" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+
+    </ul>
+   </section>
+   </div>
+  </div>
+ 
+      <button type="button" id="virar">Ver contatos</button>
+
+   </div>       <!-- fecha #area-cartao -->
+
+    <section id="sobre" class="sobre" hidden>
+      <h2>Sobre mim</h2>
+      <p>Olá! Sou o Júlio, tenho 20 anos e curso Análise e Desenvolvimento de Sistemas (ADS). Atualmente trabalho como assistente de almoxarifado e estou em busca de uma oportunidade na área de suporte de TI.</p>
+      <p>Durante o curso de ADS, já tive experiências com Windows Server e Ubuntu, além de banco de dados de alta performance. Agora estou estudando desenvolvimento web, e este cartão digital é um dos projetos que estou construindo para praticar.</p>
+      <p>Estou em busca de uma oportunidade na área de TI, voltada para suporte. Quero aplicar o que já aprendi, continuar evoluindo e contribuir com a equipe no dia a dia. Fique à vontade para me chamar pelos contatos do cartão.</p>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
